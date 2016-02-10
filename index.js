@@ -36,7 +36,7 @@ var _isAuthenticated = function (req, res, next) {
             res.redirect('/login');
         } else {
             //User is not logged in. User is asking to login. Show the login page
-            res.render('not-logged-in.html', );
+            res.render('not-logged-in.html');
         }
     }
 }
