@@ -1,0 +1,34 @@
+{
+  "name": "landing-site",
+  "version": "1.0.0",
+  "description": "Landing site for the Trixel Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Hercules-Trixel/landing-site.git"
+  },
+  "author": "TCDEVELOPER",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/Hercules-Trixel/landing-site/issues"
+  },
+  "engines": {
+    "node": "4.3.0",
+    "npm": "2.4.12"
+  },
+  "homepage": "https://gitlab.com/Hercules-Trixel/landing-site#README",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "config": "^1.19.0",
+    "express": "4.13.4",
+    "express-session": "^1.13.0",
+    "flash": "^1.1.0",
+    "nunjucks": "^2.3.0",
+    "passport": "0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
